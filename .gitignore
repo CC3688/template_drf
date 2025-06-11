@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry
+poetry.lock
+
+# Virtual environment
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# VSCode or PyCharm project files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Migrations (optional: keep only if needed)
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
+# Uncomment below line to ignore all migration files except __init__.py
+# **/migrations/[!__init__]*.py
+
+# Swagger/OpenAPI auto-generated schema
+schema.yml
+schema.json
+
+# Local settings or secrets
+.env
+*.env
+
+# Jupyter Notebooks (if any)
+*.ipynb_checkpoints
